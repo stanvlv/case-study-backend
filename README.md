@@ -1,6 +1,6 @@
 # PHP Server with MongoDB Backend
-
-This is a small project testing PHP Server created with XAMPP and MongoDB as a backend.
+This is a small project testing PHP Server created with XAMPP and MongoDB as a backend. 
+To visually display the data, there is a small frontend table that will use the API from [case-study-frontend](https://github.com/stanvlv/case-study-frontend).
 
 ## Installation
 
