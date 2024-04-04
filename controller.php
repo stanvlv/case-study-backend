@@ -7,6 +7,7 @@ $collection = $client->selectCollection($_ENV['MONGODB_DB'], $_ENV['MONGODB_COLL
 
 if ($_SERVER["REQUEST_METHOD"] === "GET") {
     if (strpos($requestUri, '/case-study/filter') !== false) {
+        // Attention TODO - The server wont accept the query parameters
         // Handle filter request
         $queryParams = [];
         parse_str(parse_url($requestUri, PHP_URL_QUERY), $queryParams);

@@ -16,7 +16,6 @@ function getAllData($collection,  $city = null, $country = null)
         $documents = iterator_to_array($cursor);
         return $documents;
     } catch (Exception $e) {
-        // Log or handle the error as needed
         error_log('Error in getAllData(): ' . $e->getMessage());
         return ["error" => "An error occurred while retrieving data"];
     }
