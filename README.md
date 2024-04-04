@@ -5,7 +5,7 @@ This is a small project testing PHP Server created with XAMPP and MongoDB as a b
 ## Installation
 
 1. Clone this repository to your local machine:
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/stanvlv/case-study-backend.git
 
 2. Move the contents of the repository into a folder called `case-study` in the `htdocs` directory of your XAMPP installation.
 
