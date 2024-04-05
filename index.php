@@ -1,8 +1,6 @@
 <?php 
-// TODO: Find the way to allow query paths for filter fetchint etc.
-// Solution found - https://gist.github.com/RaVbaker/2254618
-// TODO: add the RewriteEngine and a couple of other lines which will allow the app to take any url and direct it to the index
-// This should fix the error of fetchint with case-study/filter?city=...
+// .htaccess - https://gist.github.com/RaVbaker/2254618
+// TODO: Check - this solutions seems to not be workin / xaamp/server settings?
 
 
 require_once 'database.php';
